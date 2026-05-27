@@ -1,0 +1,14 @@
+# WorkBuddy 项目数据
+.workbuddy/
+
+# 临时脚本和文件
+*.py
+!analogy-*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
