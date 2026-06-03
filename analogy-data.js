@@ -1005,4 +1005,57 @@ const analogies = [
     },
 
 
+    {
+      quote: "心里一阵嫉妒，像火上烤的栗子，热极要迸破了壳。",
+      source: "钱锺书",
+      type: "文学艺术",
+      concept: "嫉妒心理",
+      interpretation: "以火上烤栗子“热极迸壳”来比喻嫉妒心在胸中燃烧、随时爆发的强烈感，触觉、听觉、动态兼备",
+      alsoUse: "意外惊喜、压抑不住的情绪、礁射内卷",
+      lang: "中文",
+      date: "2026-06-03",
+    },
+    {
+      quote: "人的命就像这琴弦，拉紧了才能弹好，弹好了就够了。",
+      source: "史铁生《命若琴弦》",
+      type: "人生哲理",
+      concept: "命运与张力",
+      interpretation: "用琴弦“拉紧”的张力来比喻人生需要压力与挑战——松弛的琴弦无法发声，弹好了就足够，不必追求完美结局",
+      alsoUse: "抗压教育、工作与生活平衡、“略微有点紧”的生活智慧",
+      lang: "中文",
+      date: "2026-06-03",
+    },
+    {
+      quote: "宇宙像一个保险箱，上面有密码，但密码锁在保险箱里面。
+The universe is like a safe to which there is a combination. But the combination is locked up in the safe.",
+      source: "彼得·德·弗里斯（Peter De Vries），美国小说家",
+      type: "哲学思辨",
+      concept: "终极答案的不可及性",
+      interpretation: "将宇宙比作保险箱，而密码锁在里面——精妙地表达了生命终极答案的芭论性：我们在寻找的答案正是无法触及的东西",
+      alsoUse: "认知边界、人工智能对齐问题、繁杂问题的“元问题”",
+      lang: "英文译",
+      date: "2026-06-03",
+    },
+    {
+      quote: "一个期待处女作就能引起巨大反响的作者，就像一个人在大峡谷丢下一片玫瑰花瓣，然后等着听回声。
+It has been well said that an author who expects results from a first novel is in a position similar to that of a man who drops a rose petal down the Grand Canyon of Arizona and listens for the echo.",
+      source: "P.G. 沃德豪斯（P.G. Wodehouse），英国小说家",
+      type: "文学艺术",
+      concept: "初创作与现实期待",
+      interpretation: "将处女作者期待巨大回响比作在大峡谷丢玫瑰花瓣等回声——一个形象到荒唐的比喻，说明初次创作想引起轰动是多么不切实际",
+      alsoUse: "创业初期期待管理、新产品上市、职场新人心态",
+      lang: "英文译",
+      date: "2026-06-03",
+    },
+    {
+      quote: "担忧就像试图用嘈泡泡糖来解代数方程。
+Worrying is as effective as trying to solve an algebra equation by chewing bubble gum.",
+      source: "巴兹·鲁赫曼（Baz Luhrmann），导演/作家（出自《全民防晒霜》）",
+      type: "人生哲理",
+      concept: "焦虑的无用性",
+      interpretation: "将担忧比作用嘈泡泡糖解代数题——两者在本质上毫不相关，干躇且无效，精辟地点出焦虑对解决问题毫无帮助",
+      alsoUse: "职场内耗、学习焦虑、情绪管理、内心平静练习",
+      lang: "英文译",
+      date: "2026-06-03",
+    },
 ];
