@@ -1,0 +1,46 @@
+name: Sync to Blog
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'analogy-data.js'
+      - 'analogy-collection.html'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout analogycollection
+        uses: actions/checkout@v4
+
+      - name: Checkout blog repo
+        uses: actions/checkout@v4
+        with:
+          repository: luowenpeng/luowenpeng.github.io
+          token: ${{ secrets.BLOG_REPO_PAT }}
+          path: blog
+          ref: master
+
+      - name: Copy files
+        run: |
+          cp analogy-data.js blog/analogy-data.js
+          cp analogy-collection.html blog/analogy-collection.html
+
+      - name: Commit and push
+        run: |
+          cd blog
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add analogy-data.js analogy-collection.html
+          if git diff --cached --quiet; then
+            echo "No changes to sync"
+          else
+            git commit -m "sync: update analogy collection from analogycollection repo"
+            git push
+            echo "Sync completed successfully"
+          fi
