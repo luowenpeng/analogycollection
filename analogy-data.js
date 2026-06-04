@@ -1056,8 +1056,7 @@ const analogies = [
       date: "2026-06-03",
     },
     {
-      quote: "Time is a dressmaker specializing in alterations.
-时间像一位专注于修改的裁缝师。",
+      quote: "Time is a dressmaker specializing in alterations.\n时间像一位专注于修改的裁缝师。",
       source: "费思·鲍德温（Faith Baldwin），美国作家",
       type: "人生哲理",
       concept: "时间对人的塑造",
@@ -1067,8 +1066,7 @@ const analogies = [
       date: "2026-06-04",
     },
     {
-      quote: "The future is a blank canvas, and you are the artist.
-未来是一块空白的画布，而你就是画家。",
+      quote: "The future is a blank canvas, and you are the artist.\n未来是一块空白的画布，而你就是画家。",
       source: "托马斯·爱迪生（Thomas Edison），发明家",
       type: "科技创新",
       concept: "未来的可塑性",
@@ -1078,8 +1076,7 @@ const analogies = [
       date: "2026-06-04",
     },
     {
-      quote: "Hope is a flame that never dies, even in the darkest night.
-希望是一团永不熄灭的火焰，即便在最黑暗的夜晚。",
+      quote: "Hope is a flame that never dies, even in the darkest night.\n希望是一团永不熄灭的火焰，即便在最黑暗的夜晚。",
       source: "乔治·艾略特（George Eliot），英国小说家",
       type: "人生哲理",
       concept: "希望的力量",
@@ -1089,8 +1086,7 @@ const analogies = [
       date: "2026-06-04",
     },
     {
-      quote: "Ideas are the seeds of the future. Plant well, and your harvest will be abundant.
-思想是未来的种子。用心播种，你的收成将丰盛。",
+      quote: "Ideas are the seeds of the future. Plant well, and your harvest will be abundant.\n思想是未来的种子。用心播种，你的收成将丰盛。",
       source: "圣雄甘地（Mahatma Gandhi），印度民族领袖",
       type: "教育学习",
       concept: "思想的长远影响",
@@ -1100,8 +1096,7 @@ const analogies = [
       date: "2026-06-04",
     },
     {
-      quote: "Your grief is a heavy load to bear, but you are not meant to carry it alone.
-悲伤是一个沉重的负担，但你不必独自承担。",
+      quote: "Your grief is a heavy load to bear, but you are not meant to carry it alone.\n悲伤是一个沉重的负担，但你不必独自承担。",
       source: "J.R.R. 托尔金（J.R.R. Tolkien），英国作家",
       type: "人际情感",
       concept: "悲伤的重量与分担",
