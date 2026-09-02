@@ -28,15 +28,15 @@ jobs:
 
       - name: Copy files
         run: |
-          cp analogy-data.js blog/analogy-data.js
-          cp analogy-collection.html blog/analogy-collection.html
+          cp analogy-data.js blog/docs/public/analogy-data.js
+          cp analogy-collection.html blog/docs/public/analogy-collection.html
 
       - name: Commit and push
         run: |
           cd blog
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add analogy-data.js analogy-collection.html
+          git add docs/public/analogy-data.js docs/public/analogy-collection.html
           if git diff --cached --quiet; then
             echo "No changes to sync"
           else
