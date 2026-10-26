@@ -1,6 +1,6 @@
 # 类比修辞收集库
 
-一个持续增补的经典类比修辞数据库，收录文学、哲学、管理、科技等跨领域的中英文精妙类比，当前 **120 条**。
+一个持续增补的经典类比修辞数据库，收录文学、哲学、管理、科技等跨领域的中英文精妙类比，当前 **216 条**。
 
 ## 项目结构
 
@@ -39,7 +39,7 @@ analogy-collection.html # 展示层：CSS Columns 布局 + 毛玻璃控制栏
 
 👉 **[luowenpeng.com/analogy-collection.html](https://luowenpeng.com/analogy-collection.html)**
 
-博客基于 GitHub Pages + Docsify 构建，引用同一 `analogy-data.js` 数据源。以 CSS Columns 多栏布局 + 毛玻璃筛选栏呈现，支持按类型、语言过滤。
+博客基于 GitHub Pages + VitePress 构建，引用同一 `analogy-data.js` 数据源。以 CSS Columns 多栏布局 + 毛玻璃筛选栏呈现，支持按类型、语言过滤。
 
 ## 许可证
 
